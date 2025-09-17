@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "258618184347",
+    "project_id": "atoz-shop-a8586",
+    "storage_bucket": "atoz-shop-a8586.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258618184347:android:33ca5880e513011c8b2c3e",
+        "android_client_info": {
+          "package_name": "com.example.a_to_z"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5cNaTF-AYmkyPo20lAATqrSQxwlk73E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
