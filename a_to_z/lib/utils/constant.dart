@@ -15,3 +15,8 @@ abstract final class TelescopeUtils{
 
 const String telescopeImageDirectory = 'Telescope/'; 
 const String currencySymbol = '\$'; 
+
+const telescopeDescription = '''
+A telescope is an instrument that collects electromagnetic radiation to provide a magnified view of distant objects, improving their apparent size, resolution, and brightness. 
+They are categorized by the type of radiation they detect, with common
+''';

@@ -2,6 +2,7 @@ import 'package:a_to_z/auth/auth_services.dart';
 import 'package:a_to_z/pages/add_tele_scope_page.dart';
 import 'package:a_to_z/pages/brand_page.dart';
 import 'package:a_to_z/pages/dashboard_page.dart';
+import 'package:a_to_z/pages/description_page.dart';
 import 'package:a_to_z/pages/login_page.dart';
 import 'package:a_to_z/pages/telescope_detaile_page.dart';
 import 'package:a_to_z/pages/view_tele_scope_page.dart';
@@ -76,6 +77,11 @@ class MyApp extends StatelessWidget {
                   path: TelescopeDetailePage.routeName,
                   name: TelescopeDetailePage.routeName,
                   builder: (context, state) => TelescopeDetailePage(id: state.extra! as String),
+                  ),
+                GoRoute(
+                  path: DescriptionPage.routeName,
+                  name: DescriptionPage.routeName,
+                  builder: (context, state) => DescriptionPage(id: state.extra! as String,),
                   )
               ]
               ),

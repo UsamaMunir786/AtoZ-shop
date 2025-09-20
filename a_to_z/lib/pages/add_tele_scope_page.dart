@@ -175,9 +175,9 @@ class _AddTeleScopePageState extends State<AddTeleScopePage> {
                   value: item,
                   child: Text(item.name))).toList(),
                 onChanged: (value){
-                  setState(() {
+                  
                     brand = value;
-                  });
+                
                 },
               );
               }
